@@ -15,16 +15,4 @@ void swap_int(int *a, int *b)
 	pop = *a;
 	*a = *b;
 	*b = pop;
-	int main(void)
-{
-	int a;
-	int b;
-
-	a = 54;
-	b = 23;
-	printf("a=%d, b=%d\n", a, b);
-	swap_int(&a, &b);
-	printf("a=%d, b=%d\n", a, b);
-	return (0);
-}
 }
