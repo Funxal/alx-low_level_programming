@@ -26,8 +26,11 @@ int main(void)
 					putchar(e);
 					putchar(i);
 					putchar(g);
+					if (e != 55)
+					{
 					putchar(',');
 					putchar(' ');
+					}
 				}
 				g++;
 			}
