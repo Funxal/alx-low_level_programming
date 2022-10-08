@@ -22,6 +22,7 @@ int main(void)
 	{
 		putchar(e);
 		putchar(h);
+		if (e != 56)
 		putchar(v);
 		putchar(i);
 	}
