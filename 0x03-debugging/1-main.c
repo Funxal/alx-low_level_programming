@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include "main.h"
+
 /**
  * main - causes an infinite loop
  * return: Always 0
  */
-
 int main(void)
 {
 	int i;
